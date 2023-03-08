@@ -1,0 +1,33 @@
+.heading{
+    background-color: rgb(253, 0, 177);
+    font-size: 48px;
+}
+
+.subheading{
+    background-color: rgb(253, 207, 0);
+    font-size: 24px;
+}
+
+.heading,
+.subheading{
+    text-align: center;
+    font-weight: 1000;
+}
+
+div.poem{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(253, 135, 0);
+    
+}
+
+.poem a{
+    color: rgb(0,0,0);
+    text-decoration: underline;
+}
+
+div{
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,33 +1,73 @@
-.heading{
-    background-color: rgb(253, 0, 177);
-    font-size: 48px;
-}
-
-.subheading{
-    background-color: rgb(253, 207, 0);
-    font-size: 24px;
-}
-
-.heading,
-.subheading{
+/* Set up a consistent color palette */
+:root {
+    --primary-color: #3a3a3a;
+    --secondary-color: #ffbf00;
+    --accent-color: #ff0080;
+  }
+  
+  /* Apply styles to the header */
+  header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
     text-align: center;
-    font-weight: 1000;
-}
-
-div.poem{
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    font-size: 20px;
-    color: rgb(255, 0, 0);
-    background-color: rgb(253, 135, 0);
-    
-}
-
-.poem a{
-    color: rgb(0,0,0);
-    text-decoration: underline;
-}
-
-div{
-    font-family: 'Times New Roman', Times, serif;
-}
+  }
+  
+  header h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  /* Apply styles to the main content */
+  main {
+    margin: 2rem;
+  }
+  
+  section {
+    background-color: white;
+    border: 1px solid var(--accent-color);
+    border-radius: 8px;
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  section h2 {
+    color: var(--primary-color);
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  section h3 {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  li a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  li a:hover {
+    color: white;
+    background-color: var(--accent-color);
+    padding: 0.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
